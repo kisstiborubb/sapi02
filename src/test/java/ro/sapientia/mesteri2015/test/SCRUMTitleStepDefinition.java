@@ -21,6 +21,7 @@ public class SCRUMTitleStepDefinition {
 	@Before
 	public void setup() {
 		driver = new FirefoxDriver();
+		//driver.get("http://www.onlinestore.toolsqa.com");
 	}
 
 	@Given("^I open the scrum tool add page$")

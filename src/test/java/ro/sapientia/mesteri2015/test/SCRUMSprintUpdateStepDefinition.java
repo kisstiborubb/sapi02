@@ -22,6 +22,7 @@ public class SCRUMSprintUpdateStepDefinition {
 	@Before
 	public void setup() {
 		driver = new FirefoxDriver();
+		//driver.get("http://www.onlinestore.toolsqa.com");
 	}
 
 	@Given("^I edit the scrum list's first story$")
