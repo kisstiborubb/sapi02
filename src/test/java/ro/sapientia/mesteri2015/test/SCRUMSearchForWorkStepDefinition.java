@@ -1,5 +1,6 @@
 package ro.sapientia.mesteri2015.test;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -42,7 +43,9 @@ public class SCRUMSearchForWorkStepDefinition {
 
 	@Then("^I should be able to see a work hour$")
 	public void I_should_be_able_to_see_a_work_hour() throws Throwable {
-	    
+		List<WebElement> wellDiv = driver.findElements(By.cssSelector(".well"));
+		
+		Assert.assertTrue(wellDiv.size() > 0);
 	}
 	
 	@After
