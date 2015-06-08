@@ -62,5 +62,4 @@ public class SCRUMTitleStepDefinition {
 	public void closeBrowser() {
 		driver.quit();
 	}
-
 }
