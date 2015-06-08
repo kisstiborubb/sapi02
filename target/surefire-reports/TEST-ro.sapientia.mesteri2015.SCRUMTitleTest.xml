@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="ro.sapientia.mesteri2015.SCRUMTitleTest" time="1.062" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="ro.sapientia.mesteri2015.SCRUMTitleTest" time="184.185" errors="0" skipped="8">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin"/>
-    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="sun.boot.library.path" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="user.country.format" value="HU"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
@@ -13,47 +14,48 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\sapi\git\sapi02"/>
-    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="user.dir" value="F:\Mesteri\IV felev\SzoftverTeszteles\Project\sapi02"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Tibor\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kinga\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\sapi\workspace\sapi_4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7061606190718518214.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Git\cmd;E:\app\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone\;E:\app\z3-4.3.2-x64-win;C:\Program Files (x86)\Mozilla Firefox;E:\sapi\eclipse;;."/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1631087936698053376.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Git\cmd;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\bin;F:\Mesteri\IV felev\SzoftverTeszteles\apache-maven-3.3.3\bin;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.3"/>
-    <property name="user.home" value="C:\Users\Tibor"/>
-    <property name="user.timezone" value="EET"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Kinga"/>
+    <property name="user.timezone" value="Europe/Athens"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Tibor"/>
-    <property name="java.class.path" value="/E:/sapi/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Kingucy"/>
+    <property name="java.class.path" value="/F:/Mesteri/III felev/Elosztott rendszerek/java-ee/szoftverek/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.2.20150413-2214/jars/plexus-classworlds-2.5.1.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_45"/>
+    <property name="java.home" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
+    <property name="user.language.format" value="hu"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_45"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\resources.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\rt.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\sunrsasign.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\jsse.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\jce.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\charsets.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\lib\jfr.jar;F:\Mesteri\III felev\Elosztott rendszerek\java-ee\szoftverek\jdk\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\sapi\git\sapi02\EMBEDDED"/>
+    <property name="maven.home" value="F:\Mesteri\IV felev\SzoftverTeszteles\Project\sapi02\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,12 +63,34 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: UpdateFirst" name="Given I edit the scrum list&apos;s first story" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="Then I should get result &quot;updatefirstnew&quot; in new stories list" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="0.625"/>
-  <testcase classname="Scenario: Title1" name="Given I open the scrum tool add page" time="0"/>
-  <testcase classname="Scenario: Title1" name="When I enter &quot;title1&quot; in  the title textbox and I push the add button" time="0"/>
-  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="0"/>
-  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="0.437"/>
+  <testcase classname="Scenario: UpdateFirst" name="Given I edit the scrum list&apos;s first story" time="19.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button" time="19.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="Then I should get result &quot;updatefirstnew&quot; in new stories list" time="19.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="19.883">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="19.883"/>
+  <testcase classname="Scenario: StoryListEdit" name="Given After adding a story and a sprint, I open the scrum tool sprint&apos;s story list edit page" time="0"/>
+  <testcase classname="Scenario: StoryListEdit" name="When I check &quot;story 1&quot; checkbox and I push the save button" time="0"/>
+  <testcase classname="Scenario: StoryListEdit" name="Then I should get result &quot;story 1&quot; added to sprint&apos;s stories list" time="0"/>
+  <testcase classname="Scenario: StoryListEdit" name="Scenario: StoryListEdit" time="0.779"/>
+  <testcase classname="Scenario: Title1" name="Given I open the scrum tool add page" time="16.839">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Title1" name="When I enter &quot;title1&quot; in  the title textbox and I push the add button" time="16.839">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="16.839">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="17.866">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="17.867"/>
 </testsuite>
